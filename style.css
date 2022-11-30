@@ -32,6 +32,10 @@ header {
   padding: 0 24px;
 }
 
+p {
+  font-size: 4.3vw;
+}
+
 #Introduction {
   width: 100%;
   height: calc(100vh - 48px);
