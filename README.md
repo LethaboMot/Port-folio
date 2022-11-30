@@ -134,7 +134,7 @@ Example command:
 
 ### Setup
 
-Clone this repository to your desired folder:
+Clone this repository to your desired folder: https://github.com/LethaboMot/Port-folio.git
 
 <!--
 Example commands:
