@@ -71,7 +71,6 @@ making a sidebar, that cover the screen when you press the hamburger
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">JAVASCRIPT</a></li>
     <li><a href="https://index.html/">HTML</a></li>
     <li><a href="https://style.css/">CSS</a></li>
   </ul>
