@@ -24,7 +24,8 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
 
-  
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
 
   <h3><b>Microverse README Template</b></h3>
 
@@ -56,13 +57,13 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [portfolio] <a name="about-project"></a>
+# 📖 [your_project_name] <a name="about-project"></a>
 
-making a sidebar, that cover the screen when you press the hamburger
+> Describe your project in 1 or 2 sentences.
 
-**[Portfolio]** is a...
+**[your_project__name]** is a...
 
-## 🛠html, css and javascript<a name="built-with"></a>
+## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -71,11 +72,33 @@ making a sidebar, that cover the screen when you press the hamburger
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://index.html/">HTML</a></li>
-    <li><a href="https://style.css/">CSS</a></li>
+    <li><a href="https://reactjs.org/">React.js</a></li>
   </ul>
 </details>
 
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://expressjs.com/">Express.js</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+> Describe between 1-3 key features of the application.
+
+- **[key_feature_1]**
+- **[key_feature_2]**
+- **[key_feature_3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -97,7 +120,79 @@ making a sidebar, that cover the screen when you press the hamburger
 
 To get a local copy up and running, follow these steps.
 
+### Prerequisites
 
+In order to run this project you need:
+
+<!--
+Example command:
+
+```sh
+ gem install rails
+```
+ -->
+
+### Setup
+
+Clone this repository to your desired folder:
+
+<!--
+Example commands:
+
+```sh
+  cd my-folder
+  git clone git@github.com:myaccount/my-project.git
+```
+--->
+
+### Install
+
+Install this project with:
+
+<!--
+Example command:
+
+```sh
+  cd my-project
+  gem install
+```
+--->
+
+### Usage
+
+To run the project, execute the following command:
+
+<!--
+Example command:
+
+```sh
+  rails server
+```
+--->
+
+### Run tests
+
+To run tests, run the following command:
+
+<!--
+Example command:
+
+```sh
+  bin/rails test test/models/article_test.rb
+```
+--->
+
+### Deployment
+
+You can deploy this project using:
+
+<!--
+Example:
+
+```sh
+
+```
+ -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -111,16 +206,25 @@ To get a local copy up and running, follow these steps.
 
 - GitHub: [@LethaboMot](https://github.com/LethaboMot)
 - Twitter: [@profcipher](https://twitter.com/profcipher)
-- LinkedIn: [Lethabo Motloung](https://linkedin.com/in/linkedinhandle)
+- LinkedIn: [Lethabo Motloung](https://www.linkedin.com/in/lethabo-motloung-a8157624b/)
 
 👤 **Author2**
 
 - GitHub: [@githubhandle](https://github.com/githubhandle)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/lethabo-motloung-a8157624b/)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **[new_feature_1]**
+- [ ] **[new_feature_2]**
+- [ ] **[new_feature_3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -157,6 +261,16 @@ I would like to thank...
 <!-- FAQ (optional) -->
 
 ## ❓ FAQ <a name="faq"></a>
+
+> Add at least 2 questions new developers would ask when they decide to use your project.
+
+- **[Question_1]**
+
+  - [Answer_1]
+
+- **[Question_2]**
+
+  - [Answer_2]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
