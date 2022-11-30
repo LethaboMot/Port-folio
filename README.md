@@ -56,7 +56,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [popup] <a name="about-project"></a>
+# 📖 [portfolio] <a name="about-project"></a>
 
 making a sidebar, that cover the screen when you press the hamburger
 
