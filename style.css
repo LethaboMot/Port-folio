@@ -6,7 +6,7 @@
 }
 
 html {
-  font-family: Poppins, sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 header .toolbar {
@@ -47,7 +47,7 @@ header {
 #Introduction h1 {
   font-style: normal;
   font-weight: 700;
-  font-size: 60px;
+  font-size: 40px;
   color: #253652;
   padding: 0 24px;
 }
