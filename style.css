@@ -161,6 +161,8 @@ li {
   background: #fff;
   border-radius: 10px;
   border: 1px solid #396df2;
+  text-decoration: none;
+  overflow: hidden;
 }
 
 .bluebutton:hover {
