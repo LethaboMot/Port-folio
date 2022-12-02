@@ -59,9 +59,9 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Mobile portfolio] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> Added two section of the mobile portfolio.
 
-**[your_project__name]** is a...
+**[Mobile portfolio]** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -94,7 +94,7 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+> more information in the mobile portfolio.
 
 - **[mobile version]**
 
@@ -132,14 +132,14 @@ Example command:
 
 ### Setup
 
-Clone this repository to your desired folder: https://github.com/LethaboMot/Port-folio.git
+Clone this repository to your desired folder:Mobile portfolio
 
 <!--
 Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone githttps://github.com/LethaboMot/Port-folio.git
 ```
 --->
 
