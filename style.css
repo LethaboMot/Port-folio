@@ -132,7 +132,7 @@ li {
 .bold {
   width: 55px;
   height: 16px;
-  font-family: 'Poppins', san serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -196,7 +196,7 @@ li {
 .text {
   width: 295px;
   height: 76px;
-  font-family: 'Poppins', san serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -227,7 +227,7 @@ li {
 }
 
 .grey_area {
-  font-family: 'Poppins', san serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   padding: 10px;
   color: #253858;
