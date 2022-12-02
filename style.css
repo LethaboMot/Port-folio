@@ -185,6 +185,7 @@ li {
   border: 1px solid #396df2;
   text-decoration: none;
   overflow: hidden;
+  margin-left: 20px;  
 }
 
 .bluebutton2:hover {
