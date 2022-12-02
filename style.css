@@ -132,7 +132,7 @@ li {
 .bold {
   width: 55px;
   height: 16px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', san serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -170,7 +170,7 @@ li {
   color: white;
 }
 
-bluebutton:focus {
+.bluebutton:focus {
   background: #396df2;
   color: #fff;
 }
@@ -181,7 +181,7 @@ bluebutton:focus {
   margin: 10px 0;
 }
 
-tags > li {
+.tags > li {
   padding: 8px;
   list-style: none;
   color: #6070ff;
@@ -196,7 +196,7 @@ tags > li {
 .text {
   width: 295px;
   height: 76px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', san serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -227,7 +227,7 @@ tags > li {
 }
 
 .grey_area {
-  font-family: 'Poppins';
+  font-family: 'Poppins', san serif;
   font-style: normal;
   padding: 10px;
   color: #253858;
