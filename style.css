@@ -175,6 +175,28 @@ li {
   color: #fff;
 }
 
+.bluebutton2 {
+  cursor: pointer;
+  font-size: 17px;
+  color: #396df2;
+  padding: 10px 20px;
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #396df2;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.bluebutton2:hover {
+  background-color: #396df2;
+  color: white;
+}
+
+.bluebutton2:focus {
+  background: #396df2;
+  color: #fff;
+}
+
 .tags {
   display: flex;
   flex-wrap: wrap;
@@ -212,7 +234,7 @@ li {
   font-style: normal;
   font-size: 20px;
   line-height: 24px;
-  font-weight: bold;
+  font-weight: 500px;
   margin: 10px 0;
   display: flex;
   justify-content: space-between;
@@ -277,6 +299,6 @@ li {
 .listed {
   display: flex;
   flex-direction: column;
-  padding: 10px;
+  margin: 10px 20px;
   list-style: none;
 }
