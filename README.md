@@ -96,7 +96,7 @@ After you're finished please remove all the comments and instructions!
 
 > more information in the mobile portfolio.
 
-- **[mobile version]**
+- **[contact form]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -172,15 +172,15 @@ Example:
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Lethabo**
 
 - GitHub: [@LethaboMot](https://github.com/LethaboMot)
 - Twitter: [@profcipher](https://twitter.com/profcipher)
 - LinkedIn: [Lethabo Motloung](https://www.linkedin.com/in/lethabo-motloung-a8157624b/)
 
-👤 **Author2**
+👤 **Eric**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
+- GitHub: [@eric2umeh](https://github.com/githubhandle)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
@@ -192,9 +192,9 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[name section]**
+- [ ] **[email section]**
+- [ ] **[ text box]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
