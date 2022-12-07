@@ -365,14 +365,14 @@ input[type="email"] {
 }
 
 input[type="text"] {
-  color: #172b4d;
+  color: #b3bac5;
   font-family: Poppins, sans-serif;
   font-size: normal;
   line-height: 20px;
   width: 100%;
   border-radius: 8px;
-  border: 1px solid rgb(231, 202, 202);
+  border: 1px solid #cfd8dc;
   min-height: 140px;
   padding: 10px;
-  margin: 10px 0;
+  margin: 22px 0;
 }
