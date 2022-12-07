@@ -57,6 +57,16 @@ p {
   padding: 0 24px;
 }
 
+footer p {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+}
+
 #toppart p {
   font-style: normal;
   font-weight: 400px;
@@ -289,6 +299,17 @@ li {
   gap: 12px;
 }
 
+footer h2 {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  margin-top: 103px;
+  color: #fff;
+}
+
 #about_me h2 {
   font-style: normal;
   font-weight: 700;
@@ -312,27 +333,6 @@ footer.contact-menu {
   border-radius: 150px 0 0;
   padding: 103px 24px 24px 45px;
   background-image: url("images/contact\ form\ shapes-mobile@2x.png");
-}
-
-footer h2 {
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  text-align: center;
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 52px;
-  margin-top: 103px;
-  color: #fff;
-}
-
-footer p {
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  text-align: center;
-  color: #ebebff;
 }
 
 .contact-form {
@@ -376,6 +376,3 @@ input[type="text"] {
   padding: 10px;
   margin: 10px 0;
 }
-
-
-
