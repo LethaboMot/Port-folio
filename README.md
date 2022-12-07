@@ -178,9 +178,9 @@ Example:
 - Twitter: [@profcipher](https://twitter.com/profcipher)
 - LinkedIn: [Lethabo Motloung](https://www.linkedin.com/in/lethabo-motloung-a8157624b/)
 
-👤 **Author2**
+👤 **Eric**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
+- GitHub: [@eric2umeh](https://github.com/githubhandle)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
