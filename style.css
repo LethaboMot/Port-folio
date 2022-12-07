@@ -340,7 +340,7 @@ footer.contact-menu {
   display: grid;
 }
 
-input[type="name"] {
+input[type="text"] {
   width: 100%;
   margin: 10px 0;
   font-size: 17px;
@@ -364,7 +364,7 @@ input[type="email"] {
   border-radius: 8px;
 }
 
-input[type="text"] {
+input[type="message"] {
   color: #b3bac5;
   font-family: Poppins, sans-serif;
   font-size: normal;
