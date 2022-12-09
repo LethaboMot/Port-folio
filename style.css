@@ -42,7 +42,7 @@ p {
 
 #Introduction {
   width: 100%;
-  height: calc(100vh - 48px);
+  height: 718px;
   background-image: url("images/header-shapes\ mobile.svg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
