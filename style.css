@@ -417,13 +417,13 @@ input[type="message"] {
     line-height: 60px;
   }
   
-  .toolbar {
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: flex;
-    margin: 0;
-  }
+.toolbar {
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: flex;
+  margin: 0;
+}
 
   .navigation_option {
     display: flex;
@@ -502,14 +502,14 @@ input[type="message"] {
     margin-left: 15px;
   }
   
-  p {
-    margin-top: 10px;
-    margin-bottom: 20px;
-  }
-  
-  button[type="button"] {
-    margin-top: 20px;
-  }
+p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+button[type="button"] {
+  margin-top: 20px;
+}
 
   .contact-form {
     justify-content: center;
