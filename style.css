@@ -152,7 +152,7 @@ li {
 .bold {
   width: 55px;
   height: 16px;
-  font-family: 'Poppins', san-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -507,10 +507,6 @@ input[type="message"] {
 
   .grey_area img {
     margin-bottom: 15px;
-  }
-
-  .info-tag {
-    display: none;
   }
 
   .description {
