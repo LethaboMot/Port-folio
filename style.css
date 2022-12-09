@@ -83,6 +83,12 @@ footer p {
   padding: 0 24px;
 }
 
+.navigation_option {
+  display: none;
+  list-style: none;
+  column-gap: 20px;
+}
+
 .Socials {
   display: flex;
   gap: 20px;
