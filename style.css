@@ -402,10 +402,6 @@ input[type="message"] {
     background-image: url("images/Header\ bg.svg") no-repeat center center #fff;
   }
 
-  info-tag {
-    display: none;
-  }
-
   #Introduction h1 {
     color: ##091e4;
     font-family: Poppins, sans-serif;
