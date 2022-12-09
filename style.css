@@ -33,8 +33,11 @@ header {
 }
 
 p {
-  font-size: 4.3vw;
   color: #344563;
+}
+
+.info-tag {
+  padding: 3px 5px;
 }
 
 #Introduction {
