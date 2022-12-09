@@ -33,7 +33,12 @@ header {
 }
 
 p {
+  /* font-size: 4.3vw; */
   color: #344563;
+}
+
+.info-tag {
+  padding: 3px 5px;
 }
 
 #Introduction {
@@ -56,16 +61,6 @@ p {
   padding: 0 24px;
 }
 
-footer p {
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  text-align: center;
-  color: #ebebff;
-}
-
 #toppart p {
   font-style: normal;
   font-weight: 400px;
@@ -74,7 +69,7 @@ footer p {
   padding: 0 24px;
 }
 
-#introduction > a {
+#Introduction>a {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -104,14 +99,14 @@ footer p {
 
 .center {
   padding: 20px;
-  background: white;
   margin-right: 10px;
   color: #7f8cff;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 #wrap {
+  /* width: 100%; */
   margin: 20px 0;
   display: grid;
   row-gap: 70px;
@@ -147,7 +142,7 @@ li {
 .bold {
   width: 55px;
   height: 16px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -178,17 +173,20 @@ li {
   border: 1px solid #396df2;
   text-decoration: none;
   overflow: hidden;
+  margin-left: 20px;
 }
 
 .bluebutton:hover {
-  background-color: #396df2;
+  background-color: #396DF2;
   color: white;
 }
 
 .bluebutton:focus {
-  background: #396df2;
+  background: #396DF2;
   color: #fff;
 }
+
+/* added a new button */
 
 .bluebutton2 {
   cursor: pointer;
@@ -200,18 +198,19 @@ li {
   border: 1px solid #396df2;
   text-decoration: none;
   overflow: hidden;
-  margin-left: 20px;
 }
 
 .bluebutton2:hover {
-  background-color: #396df2;
+  background-color: #396DF2;
   color: white;
 }
 
 .bluebutton2:focus {
-  background: #396df2;
+  background: #396DF2;
   color: #fff;
 }
+
+/* added a new button */
 
 .tags {
   display: flex;
@@ -234,7 +233,7 @@ li {
 .text {
   width: 295px;
   height: 76px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -245,8 +244,10 @@ li {
   flex-grow: 0;
 }
 
+/* changed the bold  to font weight*/
+
 .codeused {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins';
   font-style: normal;
   font-size: 20px;
   line-height: 24px;
@@ -265,7 +266,7 @@ li {
 }
 
 .grey_area {
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   padding: 10px;
   color: #253858;
@@ -283,18 +284,12 @@ li {
   margin-right: 20px;
 }
 
-.imageclass {
-  justify-self: center;
-  align-self: center;
-}
-
 .imageclass img {
   max-width: 100%;
 }
 
 #about_me {
   width: 100%;
-  height: calc(100vh - 48px);
   background-image: url("images/about\ me.svg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -302,6 +297,35 @@ li {
   display: flex;
   flex-direction: column;
   gap: 12px;
+}
+
+#about_me h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  color: #253652;
+  padding: 0 24px;
+}
+
+/* replaced the paddding with the margin 10px 20px */
+
+.listed {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 20px;
+  list-style: none;
+}
+
+/* contact form */
+
+footer.contact-menu {
+  height: 779px;
+  left: 0;
+  top: 5410px;
+  background: #6070FF;
+  border-radius: 150px 0 0;
+  padding: 103px 24px 24px 45px;
+  background-image: url("images/contact\ form\ shapes-mobile@2x.png");
 }
 
 footer h2 {
@@ -315,29 +339,14 @@ footer h2 {
   color: #fff;
 }
 
-#about_me h2 {
+footer p {
+  font-family: Poppins, sans-serif;
   font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  color: #253652;
-  padding: 0 24px;
-}
-
-.listed {
-  display: flex;
-  flex-direction: column;
-  margin: 10px 20px;
-  list-style: none;
-}
-
-footer.contact-menu {
-  height: 779px;
-  left: 0;
-  top: 5410px;
-  background: #6070ff;
-  border-radius: 150px 0 0;
-  padding: 103px 24px 24px 45px;
-  background-image: url("images/contact\ form\ shapes-mobile@2x.png");
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
 }
 
 .contact-form {
@@ -370,17 +379,19 @@ input[type="email"] {
 }
 
 input[type="message"] {
-  color: #b3bac5;
-  font-family: Poppins, sans-serif;
-  font-size: normal;
-  line-height: 20px;
   width: 100%;
   border-radius: 8px;
-  border: 1px solid #cfd8dc;
+  border: 1px solid rgb(231, 202, 202);
   min-height: 140px;
   padding: 10px;
   margin: 22px 0;
+  color: #172b4d;
+  font-family: Poppins, sans-serif;
+  font-size: normal;
+  line-height: 20px;
 }
+
+/* For desktop: */
 
 @media only screen and (min-width: 768px) {
   html,
@@ -404,12 +415,16 @@ input[type="message"] {
     background-repeat: no-repeat;
     display: flex;
     align-items: flex;
-    padding: 359px 260px 325px;
+    padding: 150px 100px;
     background-image: url("images/Header\ bg.svg") no-repeat center center #fff;
   }
 
+  .info-tag {
+    display: none;
+  }
+
   #Introduction h1 {
-    color: #091e42;
+    color: #091E42;
     font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -449,14 +464,14 @@ input[type="message"] {
   }
 
   .center {
-    font-weight: 500;
-    font-size: 30px;
+    font-weight: 300;
+    font-size: 20px;
   }
 
   .whitebox {
     display: flex;
     flex-direction: row;
-    border: 2px solid #a7aeff;
+    border: 2px solid #A7AEFF;
     border-radius: 24px;
   }
 
@@ -467,7 +482,7 @@ input[type="message"] {
   #about_me {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    overflow: auto;
+    padding-bottom: 100px;
   }
 
   .sidebyside {
@@ -507,7 +522,7 @@ input[type="message"] {
     margin-bottom: 20px;
   }
 
-  button[type="button"] {
+  button[ type="button"] {
     margin-top: 20px;
   }
 
@@ -519,7 +534,7 @@ input[type="message"] {
   }
 
   footer.contact-menu {
-    padding: 182px 700px 127px;
+    padding: 182px 400px 127px;
     background: url("images/contact\ form\ background\ shapes.png") no-repeat center center #6070ff;
     display: grid;
     overflow: auto;
@@ -530,10 +545,10 @@ input[type="message"] {
   }
 
   input[type="email"] {
-    border-radius: 2px;
+      border-radius: 2px;
   }
 
-  input[type="message"] {
+   input[type="message"] {
     border-radius: 2px;
   }
 }
