@@ -416,7 +416,7 @@ input[type="message"] {
     font-size: 48px;
     line-height: 60px;
   }
-
+  
   .toolbar {
     background-repeat: no-repeat;
     display: flex;
@@ -467,6 +467,7 @@ input[type="message"] {
   #about_me {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    overflow: auto;
   }
 
   .sidebyside {
@@ -500,6 +501,15 @@ input[type="message"] {
   .description {
     margin-left: 15px;
   }
+  
+  p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  button[type="button"] {
+    margin-top: 20px;
+  }
 
   .contact-form {
     justify-content: center;
@@ -511,7 +521,8 @@ input[type="message"] {
   footer.contact-menu {
     padding: 182px 700px 127px;
     background: url("images/contact\ form\ background\ shapes.png") no-repeat center center #6070ff;
-    justify-content: center;
+    display: grid;
+    overflow: auto;
   }
 
   input[type="text"] {
