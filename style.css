@@ -177,12 +177,12 @@ li {
 }
 
 .bluebutton:hover {
-  background-color: #396DF2;
+  background-color: #396df2;
   color: white;
 }
 
 .bluebutton:focus {
-  background: #396DF2;
+  background: #396df2;
   color: #fff;
 }
 
@@ -201,12 +201,12 @@ li {
 }
 
 .bluebutton2:hover {
-  background-color: #396DF2;
+  background-color: #396df2;
   color: white;
 }
 
 .bluebutton2:focus {
-  background: #396DF2;
+  background: #396df2;
   color: #fff;
 }
 
@@ -424,7 +424,7 @@ input[type="message"] {
   }
 
   #Introduction h1 {
-    color: #091E42;
+    color: #091e42;
     font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -471,7 +471,7 @@ input[type="message"] {
   .whitebox {
     display: flex;
     flex-direction: row;
-    border: 2px solid #A7AEFF;
+    border: 2px solid #a7aeff;
     border-radius: 24px;
   }
 
