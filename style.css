@@ -69,7 +69,7 @@ p {
   padding: 0 24px;
 }
 
-#Introduction>a {
+#Introduction > a {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -233,7 +233,7 @@ li {
 .text {
   width: 295px;
   height: 76px;
-  font-family: 'Poppins';
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -244,10 +244,10 @@ li {
   flex-grow: 0;
 }
 
-/* changed the bold  to font weight*/
+/* changed the bold  to font weight */
 
 .codeused {
-  font-family: 'Poppins';
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-size: 20px;
   line-height: 24px;
@@ -522,7 +522,7 @@ input[type="message"] {
     margin-bottom: 20px;
   }
 
-  button[ type="button"] {
+  button[type="button"] {
     margin-top: 20px;
   }
 
@@ -548,7 +548,7 @@ input[type="message"] {
       border-radius: 2px;
   }
 
-   input[type="message"] {
+  input[type="message"] {
     border-radius: 2px;
   }
 }
