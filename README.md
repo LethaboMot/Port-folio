@@ -180,7 +180,7 @@ Example:
 
 👤 **Ezekiel Udiomuno**
 
-- GitHub: [@eric2umeh](https://github.com/githubhandle)
+- GitHub: [@eric2umeh](https://github.com/Ezzywealth)
 - Twitter: [@twitterhandle](https://twitter.com/EzzyWealth)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ezekiel-udiomuno-b14539150/)
 
