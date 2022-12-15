@@ -178,11 +178,13 @@ Example:
 - Twitter: [@profcipher](https://twitter.com/profcipher)
 - LinkedIn: [Lethabo Motloung](https://www.linkedin.com/in/lethabo-motloung-a8157624b/)
 
+
 👤 **Ezekiel Udiomuno**
 
 - GitHub: [@eric2umeh](https://github.com/Ezzywealth)
 - Twitter: [@twitterhandle](https://twitter.com/EzzyWealth)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ezekiel-udiomuno-b14539150/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
