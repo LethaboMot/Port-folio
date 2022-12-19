@@ -1,3 +1,6 @@
+var openNav;
+var closeNav;
+
 function openNav() {
   document.getElementById('slidemenu').style.width = '100%';
 }
