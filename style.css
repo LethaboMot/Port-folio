@@ -79,6 +79,10 @@ footer p {
   padding: 0 24px;
 }
 
+.overlay a:hover {
+  color: #818181;
+}
+
 #Introduction > a {
   font-style: normal;
   font-weight: 500;
@@ -405,10 +409,6 @@ input[type="message"] {
   text-align: left;
 }
 
-.overlay a:hover {
-  color: #818181;
-}
-
 .overlay .closebtn {
   position: absolute;
   top: 0;
@@ -416,7 +416,7 @@ input[type="message"] {
   font-size: 36px;
   margin-left: 50px;
 }
- /*overlay*/
+ 
 .overlay p .slidefont {
   color: #fff;
   font-family: Poppins, sans-serif;
@@ -428,7 +428,6 @@ input[type="message"] {
   margin-bottom: 0;
   text-indent: 22px;
 }
-
 
 /* For desktop: */
 
