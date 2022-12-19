@@ -1,343 +1,272 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
 
-    <title>Lethabo's portfolio</title>
-  </head>
+    <title>portfolio</title>
+</head>
 
-  <body>
+<body>
     <header id="toppart">
-      <nav class="toolbar">
-        <div><img src="images/My Logo.svg" width="90" height="90" alt="" /></div>
+        <div id="slidemenu" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="images/xicon.svg" alt="x icon" /></a>
+           
+            <p><a class="slidefont">Portfolio</a></h2>
+                <p><a class="slidefont">About</a></p>
+                <p><a class="slidefont">Contact</a></p>
+        </div>
+        <nav class="toolbar">
+            <div><img src="images/My Logo.svg" width="90" height="90" /></div>
 
-        <div class="info-tag">
-          <img
-            src="images/Hamburger button.svg"
-            alt="three lines"
-            width="24"
-            height="24"
-          />
-        </div>
-        <div class="navigation_option">
-          <a class="">Portfolio</a>
-          <a class="">About</a>
-          <a class="">Contact</a>
-        </div>
-      </nav>
+            <div class="info-tag">
+                <span style="font-size: 30px; cursor: pointer" onclick="openNav()"><img
+              src="images/Hamburger button.svg"
+              alt="three lines"
+              width="24"
+              height="24"
+          /></span>
+            </div>
+            <div class="navigation_option">
+                <a class="">Portfolio</a>
+                <a class="">About</a>
+                <a class="">Contact</a>
+            </div>
+        </nav>
     </header>
 
     <section id="Introduction">
-      <h1>
-        I'm Lethabo<br />
-        Glad to see you!
-      </h1>
-      <div class="mid">
-        <p>
-          I'm a software developer! I can help you build a product, feature<br />
-          or website Look through some fo my work and experience!<br />
-          If you like what you see and have a project you need coded, don't
-          hestiate to contact me.
-        </p>
-      </div>
-      <p class="center">LET'S CONNECT</p>
-      <ul class="Socials">
-        <li>
-          <a href="#"><img src="images/Twitter.svg" alt="Twitter" /></a>
-        </li>
-        <li>
-          <a href="#"><img src="images/Linkedin.svg" alt="Linkedin" /></a>
-        </li>
-        <li>
-          <a href="#"><img src="images/Medium.svg" alt="Medium" /></a>
-        </li>
-        <li>
-          <a href="#"><img src="images/GitHub.svg" alt="GitHub" /></a>
-        </li>
-        <li>
-          <a href="#"><img src="images/Angel list.svg" alt="ANGEL LIST" /></a>
-        </li>
-      </ul>
-    </section>
-
-    <section id="wrap">
-      <div class="whitebox">
-        <div class="imageclass">
-          <img
-            src="images/Nature.png"
-            width="500"
-            height="400"
-            alt="nature picture"
-          />
-        </div>
-        <div class="description">
-          <h2 class="heading">Tonic</h2>
-
-          <div>
-            <ul class="list_align">
-              <li class="bold">CANOPY</li>
-              <img src="images/Counter.svg" alt="" />
-              <li>Back End Dev</li>
-              <img src="images/Counter.svg"  alt="" />
-              <li>2015</li>
-            </ul>
-          </div>
-          <p>
-            A daily selection of privately personalized reads;no accounts<br />
-            or sign-ups required.
-          </p>
-          <ul class="tags">
-            <li>Html</li>
-            <li>Css</li>
-            <li>Javascript</li>
-          </ul>
-          <button type="button" class="bluebutton">See More</button>
-        </div>
-      </div>
-      <div class="whitebox">
-        <div class="imageclass">
-          <img
-            src="images/colorfulbasketball.svg"
-            width="500"
-            height="400"
-            alt="Printing picture"
-          />
-        </div>
-        <div class="description">
-          <h2 class="heading">Multi-Post<br />Stories</h2>
-          <div>
-            <ul class="list_align">
-              <li class="bold">CANOPY</li>
-              <img src="images/Counter.svg"  alt="" />
-              <li>Back End Dev</li>
-              <img src="images/Counter.svg"  alt=""/>
-              <li>2015</li>
-            </ul>
-          </div>
-          <p>
-            Experimental content creation feature that allows users to<br />
-            add to an existing story over the course of a day without<br />
-            spamming their friends.
-          </p>
-          <ul class="tags">
-            <li>Html</li>
-            <li>Css</li>
-            <li>Javascript</li>
-          </ul>
-          <button type="button" class="bluebutton">See More</button>
-        </div>
-      </div>
-      <div class="whitebox">
-        <div class="imageclass">
-          <img
-            src="images/orange ting.svg"
-            width="500"
-            height="400"
-            alt="facebook picture"
-          />
-        </div>
-        <div class="description">
-          <div>
-            <h2 class="heading">Facebook</h2>
-          </div>
-          <div>
-            <ul class="list_align">
-              <li class="bold">CANOPY</li>
-              <img src="images/Counter.svg"  alt="" />
-              <li>Back End Dev</li>
-              <img src="images/Counter.svg"  alt=""/>
-              <li>2015</li>
-            </ul>
-          </div>
-          <p>
-            Exploring the future of media in Facebook's first Virtual Reality<br />
-            app; a place to discover and enjoy 360 photos and videos on<br />
-            Gear VR.
-          </p>
-          <ul class="tags">
-            <li>Html</li>
-            <li>Css</li>
-            <li>Javascript</li>
-          </ul>
-          <button type="button" class="bluebutton">See More</button>
-        </div>
-      </div>
-
-      <div class="whitebox">
-        <div class="imageclass">
-          <img
-            src="images/uber nav.svg"
-            width="500"
-            height="400"
-            alt="Uber Navigation picture"
-          />
-        </div>
-        <div class="description">
-          <h2 class="heading">
-            Uber Navigation<br />
-            Stories
-          </h2>
-          <div>
-            <ul class="list_align">
-              <li class="bold">CANOPY</li>
-              <img src="images/Counter.svg"  alt="" />
-              <li>Back End Dev</li>
-              <img src="images/Counter.svg"  alt="" />
-              <li>2015</li>
-            </ul>
-          </div>
-          <p>
-            A smart assistant to make driving more safe, efficient, and fun<br />
-            by unlocking your most expensive computer: your car.
-          </p>
-          <ul class="tags">
-            <li>Html</li>
-            <li>Css</li>
-            <li>Javascript</li>
-          </ul>
-          <button type="button" class="bluebutton">See More</button>
-        </div>
-      </div>
-    </section>
-    <section id="about_me">
-      <div class="leftpart">
-        <h2>
-          About<br />
-          Myself
-        </h2>
+        <h1>
+            I'm Lethabo<br /> Glad to see you!
+        </h1>
         <div class="mid">
-          <p>
-            Hello I’m a software developer! I can help you build a product ,
-            feature or website Look through some of my work and experience! If
-            you like what you see and have a project you need coded, don’t
-            hestiate to contact me.
-          </p>
+            <p>
+                I'm a software developer! I can help you build a product, feature<br /> or website Look through some fo my work and experience!<br /> If you like what you see and have a project you need coded, don't hestiate to contact me.
+            </p>
         </div>
         <p class="center">LET'S CONNECT</p>
         <ul class="Socials">
-          <li>
-            <a href="# "><img src="images/Twitter.svg " alt="Twitter " /></a>
-          </li>
-          <li>
-            <a href="# "><img src="images/Linkedin.svg " alt="Linkedin " /></a>
-          </li>
-          <li>
-            <a href="# "><img src="images/Medium.svg " alt="Medium " /></a>
-          </li>
-          <li>
-            <a href="# "><img src="images/GitHub.svg " alt="GitHub " /></a>
-          </li>
-          <li>
-            <a href="# "
-              ><img src="images/Angel list.svg " alt="ANGEL LIST "
-            /></a>
-          </li>
-        </ul>
-        <div>
-          <button type="button" class="bluebutton">Get my resume</button>
-        </div>
-      </div>
-
-      <div class="sidebyside">
-        <ul class="listed">
-          <h3 class="codeused">
-            Languages
-            <img
-              class="down_arrow_icon"
-              src="./images/Icon - Chevron - Down - Larger.png "
-              alt="down "
-            />
-          </h3>
-          <div class="code">
-            <li class="grey_area">
-              <img
-                src="images/javascriptLogo.png "
-                alt="Javascript_ICON "
-              /><span>Javascript</span>
+            <li>
+                <a href="#"><img src="images/Twitter.svg" alt="Twitter" /></a>
             </li>
+            <li>
+                <a href="#"><img src="images/Linkedin.svg" alt="Linkedin" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/Medium.svg" alt="Medium" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/GitHub.svg" alt="GitHub" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/Angel list.svg" alt="ANGEL LIST" /></a>
+            </li>
+        </ul>
+    </section>
 
-            <li class="grey_area">
-              <img src="images/html logo.png " alt="HTML_ICON " /><span
-                >HTML</span
+    <section id="wrap">
+        <div class="whitebox">
+            <div class="imageclass">
+                <img src="images/Nature.png" width="500" height="400" />
+            </div>
+            <div class="description">
+                <h2 class="heading">Tonic</h2>
+
+                <div>
+                    <ul class="list_align">
+                        <li class="bold">CANOPY</li>
+                        <img src="images/Counter.svg" />
+                        <li>Back End Dev</li>
+                        <img src="images/Counter.svg" />
+                        <li>2015</li>
+                    </ul>
+                </div>
+                <p>
+                    A daily selection of privately personalized reads;no accounts<br /> or sign-ups required.
+                </p>
+                <ul class="tags">
+                    <li>Html</li>
+                    <li>Css</li>
+                    <li>Javascript</li>
+                </ul>
+                <button type="button" class="bluebutton">See More</button>
+            </div>
+        </div>
+        <div class="whitebox">
+            <div class="imageclass">
+                <img src="images/colorfulbasketball.svg" width="500" height="400" />
+            </div>
+            <div class="description">
+                <h2 class="heading">Multi-Post<br />Stories</h2>
+                <div>
+                    <ul class="list_align">
+                        <li class="bold">CANOPY</li>
+                        <img src="images/Counter.svg" />
+                        <li>Back End Dev</li>
+                        <img src="images/Counter.svg" />
+                        <li>2015</li>
+                    </ul>
+                </div>
+                <p>
+                    Experimental content creation feature that allows users to<br /> add to an existing story over the course of a day without<br /> spamming their friends.
+                </p>
+                <ul class="tags">
+                    <li>Html</li>
+                    <li>Css</li>
+                    <li>Javascript</li>
+                </ul>
+                <button type="button" class="bluebutton">See More</button>
+            </div>
+        </div>
+        <div class="whitebox">
+            <div class="imageclass">
+                <img src="images/orange ting.svg" width="500" height="400" />
+            </div>
+            <div class="description">
+                <div>
+                    <h2 class="heading">Facebook</h2>
+                </div>
+                <div>
+                    <ul class="list_align">
+                        <li class="bold">CANOPY</li>
+                        <img src="images/Counter.svg" />
+                        <li>Back End Dev</li>
+                        <img src="images/Counter.svg" />
+                        <li>2015</li>
+                    </ul>
+                </div>
+                <p>
+                    Exploring the future of media in Facebook's first Virtual Reality<br /> app; a place to discover and enjoy 360 photos and videos on<br /> Gear VR.
+                </p>
+                <ul class="tags">
+                    <li>Html</li>
+                    <li>Css</li>
+                    <li>Javascript</li>
+                </ul>
+                <button type="button" class="bluebutton">See More</button>
+            </div>
+        </div>
+
+        <div class="whitebox">
+            <div class="imageclass">
+                <img src="images/uber nav.svg" width="500" height="400" />
+            </div>
+            <div class="description">
+                <h2 class="heading">
+                    Uber Navigation<br /> Stories
+                </h2>
+                <div>
+                    <ul class="list_align">
+                        <li class="bold">CANOPY</li>
+                        <img src="images/Counter.svg" />
+                        <li>Back End Dev</li>
+                        <img src="images/Counter.svg" />
+                        <li>2015</li>
+                    </ul>
+                </div>
+                <p>
+                    A smart assistant to make driving more safe, efficient, and fun<br /> by unlocking your most expensive computer: your car.
+                </p>
+                <ul class="tags">
+                    <li>Html</li>
+                    <li>Css</li>
+                    <li>Javascript</li>
+                </ul>
+                <button type="button" class="bluebutton">See More</button>
+            </div>
+        </div>
+    </section>
+    <section id="about_me">
+        <div class="leftpart">
+            <h2>
+                About<br /> Myself
+            </h2>
+            <div class="mid">
+                <p>
+                    Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
+                </p>
+            </div>
+            <p class="center">LET'S CONNECT</p>
+            <ul class="Socials">
+                <li>
+                    <a href="# "><img src="images/Twitter.svg " alt="Twitter " /></a>
+                </li>
+                <li>
+                    <a href="# "><img src="images/Linkedin.svg " alt="Linkedin " /></a>
+                </li>
+                <li>
+                    <a href="# "><img src="images/Medium.svg " alt="Medium " /></a>
+                </li>
+                <li>
+                    <a href="# "><img src="images/GitHub.svg " alt="GitHub " /></a>
+                </li>
+                <li>
+                    <a href="# "><img src="images/Angel list.svg " alt="ANGEL LIST " /></a>
+                </li>
+            </ul>
+            <div>
+                <button type="button" class="bluebutton">Get my resume</button>
+            </div>
+        </div>
+
+        <div class="sidebyside">
+            <ul class="listed">
+                <h3 class="codeused">
+                    Languages
+                    <img class="down_arrow_icon" src="./images/Icon - Chevron - Down - Larger.png " alt="down " />
+                </h3>
+                <div class="code">
+                    <li class="grey_area">
+                        <img src="images/javascriptLogo.png " alt="Javascript " /><span>Javascript</span
               >
             </li>
-            <li class="grey_area">
-              <img src="images/css logo.png " alt="CSS_ICON " />
-              <span>CSS</span>
-            </li>
-          </div>
-        </ul>
-        <div>
-          <ul class="listed">
-            <h3 class="codeused">
-              Frameworks
-              <img
-                class="arrow_icon"
-                src="images/Icon - Chevron - Right - Larger.png "
-                alt="down-arrow-icon "
-              />
-            </h3>
 
-            <img src="images/Separator Bottom.svg "  alt="" />
-            <h3 class="codeused">
-              Skills
-              <img
-                class="arrow_icon"
-                src="images/Icon - Chevron - Right - Larger.png "
-                alt="down-arrow-icon "
-              />
-            </h3>
-            <img src="images/Separator Bottom.svg "  alt=""/>
-          </ul>
+            <li class="grey_area">
+              <img src="images/html logo.png " alt="HTML " /><span>HTML</span>
+                    </li>
+                    <li class="grey_area">
+                        <img src="images/css logo.png " alt="CSS " />
+                        <span>CSS</span>
+                    </li>
+                </div>
+            </ul>
+            <div>
+                <ul class="listed">
+                    <h3 class="codeused">
+                        Frameworks
+                        <img class="arrow_icon" src="images/Icon - Chevron - Right - Larger.png " alt="down " />
+                    </h3>
+
+                    <img src="images/Separator Bottom.svg " />
+                    <h3 class="codeused">
+                        Skills
+                        <img class="arrow_icon" src="images/Icon - Chevron - Right - Larger.png " alt="down " />
+                    </h3>
+                    <img src="images/Separator Bottom.svg " />
+                </ul>
+            </div>
         </div>
-      </div>
     </section>
 
     <footer class="contact-menu">
-      <h2 class="background">Contact me</h2>
-      <p>
-        If you have an application you are interested in developing, a feature
-        that you need built or a project that needs coding. I’d love to help
-        with it
-      </p>
+        <h2 class="background">Contact me</h2>
+        <p>
+            If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it
+        </p>
 
-      <form
-        class="contact-form"
-        action="https://formspree.io/f/}"
-        method="post"
-      >
-        <input
-          type="text"
-          id="name"
-          name="text"
-          placeholder="Yeremias"
-          size="30"
-          required
-        />
-        <input
-          type="email"
-          id="email"
-          placeholder="natajayanj14@gmail.com"
-          size="30"
-          required
-        />
-        <input
-          type="message"
-          id="message"
-          name="message"
-          placeholder="Write your message here"
-          required
-          minlength="4"
-          maxlength="500"
-          size="100"
-        />
-        <div>
-          <button type="submit" class="bluebutton2">Get In touch</button>
-        </div>
-      </form>
+        <form class="contact-form" action="https://formspree.io/f/}" method="post">
+            <input type="text" id="name" name="text" placeholder="Yeremias" size="30" required />
+            <input type="email" id="email" placeholder="natajayanj14@gmail.com" size="30" required />
+            <input type="message" id="message" name="message" placeholder="Write your message here" required minlength="4" maxlength="500" size="100" />
+            <div>
+                <button type="submit" class="bluebutton2">Get In touch</button>
+            </div>
+        </form>
     </footer>
-  </body>
+</body>
+
 </html>
