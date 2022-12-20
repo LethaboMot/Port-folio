@@ -1,14 +1,16 @@
-function openNav() {
+function openNav(open) {
   document.getElementById("slidemenu").style.width = "100%";
   console.log("hello");
+  return open;
 
 }
-openNav();
+openNav("hello");
 
 
-function closeNav() {
+function closeNav(close) {
   document.getElementById("slidemenu").style.width = "0";
   console.log("goodbye");
+  return close;
 
 }
-closeNav();
+closeNav("goodbye");
