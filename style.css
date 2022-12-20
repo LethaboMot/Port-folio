@@ -453,7 +453,7 @@ input[type="message"] {
     background-repeat: no-repeat;
     display: flex;
     padding: 150px 100px;
-    background-image: url("images/Header\ bg.svg") no-repeat center;
+    background-image: url("images/Header\ bg.svg") no-repeat;
     background-color: #fff;
   }
 
