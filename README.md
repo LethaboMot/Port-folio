@@ -59,9 +59,11 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Mobile portfolio] <a name="about-project"></a>
 
-> Added two section of the mobile portfolio.
+> Added the mobile menu using Javascript and CSS and HTML.
+> Background of the menu is the color requiested in the figma 
+> this projecthas three options.
 
-**[Mobile portfolio]** is a...
+**[Mobile Menu]** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -73,6 +75,8 @@ After you're finished please remove all the comments and instructions!
   <summary>Client</summary>
   <ul>
     <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://reactjs.org/">HTML</a></li>
+    <li><a href="https://reactjs.org/">CSS</a></li>
   </ul>
 </details>
 
@@ -80,6 +84,7 @@ After you're finished please remove all the comments and instructions!
   <summary>Server</summary>
   <ul>
     <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li>slides open when you click the Hamburger</li>
   </ul>
 </details>
 
@@ -96,7 +101,7 @@ After you're finished please remove all the comments and instructions!
 
 > more information in the mobile portfolio.
 
-- **[contact form]**
+- **[Mobile Menu]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -124,7 +129,8 @@ In order to run this project you need:
 
 <!--
 Example command:
-
+i would recommend you to first open the project in your browser and  make it a mobile.
+then click on the hamburger button to see the mobile menu.
 ```sh
  gem install rails
 ```

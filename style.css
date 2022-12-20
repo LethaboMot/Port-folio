@@ -79,6 +79,10 @@ footer p {
   padding: 0 24px;
 }
 
+.overlay a:hover {
+  color: #818181;
+}
+
 #Introduction > a {
   font-style: normal;
   font-weight: 500;
@@ -136,7 +140,8 @@ footer p {
 .list_align {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  display: row;
+  display: flex;
+  flex-direction: row;
   overflow: hidden;
 }
 
@@ -261,7 +266,7 @@ li {
   font-style: normal;
   font-size: 20px;
   line-height: 24px;
-  font-weight: 500px;
+  font-weight: 500;
   margin: 10px 0;
   display: flex;
   justify-content: space-between;
@@ -387,8 +392,41 @@ input[type="message"] {
   margin: 22px 0;
   color: #172b4d;
   font-family: Poppins, sans-serif;
-  font-size: normal;
   line-height: 20px;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background-color: #6070ff !important;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align: left;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.overlay p .slidefont {
+  color: #fff;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 2;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-indent: 22px;
 }
 
 /* For desktop: */
@@ -414,9 +452,9 @@ input[type="message"] {
   #Introduction {
     background-repeat: no-repeat;
     display: flex;
-    align-items: flex;
     padding: 150px 100px;
-    background-image: url("images/Header\ bg.svg") no-repeat center center #fff;
+    background-image: url("images/Header\ bg.svg");
+    background-color: #fff;
   }
 
   .info-tag {
@@ -436,7 +474,6 @@ input[type="message"] {
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
-    align-items: flex;
     margin: 0;
   }
 
