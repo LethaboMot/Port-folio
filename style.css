@@ -265,7 +265,7 @@ li {
   font-style: normal;
   font-size: 20px;
   line-height: 24px;
-  font-weight: 500px;
+  font-weight: 500;
   margin: 10px 0;
   display: flex;
   justify-content: space-between;
@@ -391,7 +391,6 @@ input[type="message"] {
   margin: 22px 0;
   color: #172b4d;
   font-family: Poppins, sans-serif;
-  font-size: normal;
   line-height: 20px;
 }
 
@@ -452,7 +451,6 @@ input[type="message"] {
   #Introduction {
     background-repeat: no-repeat;
     display: flex;
-    align-items: flex;
     padding: 150px 100px;
     background-image: url("images/Header\ bg.svg") no-repeat center center #fff;
   }
