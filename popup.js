@@ -31,10 +31,11 @@ span2.onclick = function () {
 
 window.onclick = function (event) {
   if (event.target === modal2) {
-      modal2.style.display = 'none';
-}
+    modal2.style.display = 'none';
+  }
 };
-    //  third card
+
+//  third card
 const modal3 = document.getElementById('myModal3');
 const btn3 = document.getElementById('myBtn3');
 const span3 = document.getElementsByClassName('close3')[0];
@@ -50,9 +51,10 @@ span3.onclick = function () {
 window.onclick = function (event) {
   if (event.target === modal3) {
     modal3.style.display = 'none';
-}
+  }
 };
-    //  fourth card
+
+//  fourth card
 const modal4 = document.getElementById('myModal4');
 const btn4 = document.getElementById('myBtn4');
 const span4 = document.getElementsByClassName('close4')[0];
@@ -69,5 +71,5 @@ span4.onclick = function ()
 window.onclick = function (event) {
   if (event.target === modal4) {
     modal4.style.display = 'none';
-}
+  }
 };
