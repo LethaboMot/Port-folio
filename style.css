@@ -737,24 +737,21 @@ input[type="message"] {
   input[type="message"] {
     border-radius: 2px;
   }
-      /* desktop popup */
+
+  /* desktop popup */
+
   .images-center img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
   }
-  
-  .modal-content {
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    bottom: 0px;
-    }
-   
+
   .perpendicular {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-bottom: 100px;
   }
+}
+
 }
