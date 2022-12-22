@@ -60,12 +60,11 @@ const btn4 = document.getElementById('myBtn4');
 const span4 = document.getElementsByClassName('close4')[0];
 
 btn4.onclick = function () {
-    modal4.style.display = 'block';
+  modal4.style.display = 'block';
 };
 
-span4.onclick = function ()
-{
-    modal4.style.display = 'none';
+span4.onclick = function () {
+  modal4.style.display = 'none';
 };
 
 window.onclick = function (event) {
