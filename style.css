@@ -751,4 +751,10 @@ input[type="message"] {
     top: 0px;
     bottom: 0px;
     }
+   
+  .perpendicular {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 100px;
+  }
 }
