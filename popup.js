@@ -18,10 +18,10 @@ window.onclick = function(event) {
 
 // second card
 const modal2 = document.getElementById('myModal2');
-const btn = document.getElementById('myBtn2');
+const btn2 = document.getElementById('myBtn2');
 const span = document.getElementsByClassName('close2')[0];
 
-btn.onclick = function () {
+btn2.onclick = function () {
   modal2.style.display = 'block';
 }
 
@@ -36,10 +36,10 @@ window.onclick = function(event) {
     }
     //  third card
 const modal3 = document.getElementById('myModal3');
-const btn = document.getElementById('myBtn3');
+const btn3 = document.getElementById('myBtn3');
 const span = document.getElementsByClassName('close3')[0];
 
-btn.onclick = function () {
+btn3.onclick = function () {
   modal3.style.display = 'block';
 };
 
@@ -55,10 +55,10 @@ window.onclick = function(event) {
 };
     //  fourth card
 const modal4 = document.getElementById('myModal4');
-const  btn = document.getElementById('myBtn4');
+const  btn4 = document.getElementById('myBtn4');
 const span = document.getElementsByClassName('close4')[0];
 
-btn.onclick = function() {
+btn4.onclick = function() {
     modal4.style.display = 'block'
 };
 
