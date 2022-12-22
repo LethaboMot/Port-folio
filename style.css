@@ -429,7 +429,7 @@ input[type="message"] {
   text-indent: 22px;
 }
 
-.modal {
+.modal1 {
   display: none;
   position: fixed;
   z-index: 1;
@@ -441,7 +441,7 @@ input[type="message"] {
   background-color: rgba(0, 0, 0, 40%);
 }
 
-.modal-content {
+.modal-content1 {
   background-color: #fefefe;
   margin: 15% auto;
   padding: 20px;
@@ -450,7 +450,7 @@ input[type="message"] {
   width: 80%;
 }
 
-.close {
+.close1 {
   color: #aaa;
   float: right;
   font-size: 28px;
