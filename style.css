@@ -746,6 +746,12 @@ input[type="message"] {
     width: 100%;
   }
  
+  .perpendicular {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 100px;
+  } 
+  
   .modal-content {
     left: 0px;
     right: 0px;
