@@ -59,15 +59,16 @@ var btn = document.getElementById("myBtn4");
 var span = document.getElementsByClassName("close4")[0];
 
 btn.onclick = function() {
-    modal4.style.display = "block";
-}
+    modal4.style.display = 'block';
+};
 
-span.onclick = function() {
-    modal4.style.display = "none";
-}
+span.onclick = function ()
+{
+    modal4.style.display = 'none';
+};
 
 window.onclick = function(event) {
-    if (event.target == modal4) {
-        modal4.style.display = "none";
-    }
+    if (event.target === modal4) {
+    modal4.style.display = "none";
+    };
 }
