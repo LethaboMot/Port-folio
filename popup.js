@@ -7,13 +7,13 @@ btn.onclick = function () {
 };
 
 span.onclick = function () {
-  modal.style.display = 'none'
+  modal.style.display = 'none';
 };
 
 window.onclick = function (event) {
   if (event.target === modal) {
-    modal.style.display = 'none'
-    };
+    modal.style.display = 'none';
+  };
 };
 
 // second card
@@ -31,7 +31,7 @@ span2.onclick = function () {
 
 window.onclick = function (event) {
   if (event.target === modal2) {
-      modal2.style.display = 'none'
+      modal2.style.display = 'none';
   };
 };
     //  third card
@@ -40,16 +40,16 @@ const btn3 = document.getElementById('myBtn3');
 const span3 = document.getElementsByClassName('close3')[0];
 
 btn3.onclick = function () {
-  modal3.style.display = 'block'
+  modal3.style.display = 'block';
 };
 
 span3.onclick = function () {
-  modal3.style.display = 'none'
+  modal3.style.display = 'none';
 };
 
 window.onclick = function (event) {
   if (event.target === modal3) {
-    modal3.style.display = 'none'
+    modal3.style.display = 'none';
   };
 };
     //  fourth card
@@ -58,16 +58,16 @@ const btn4 = document.getElementById('myBtn4');
 const span4 = document.getElementsByClassName('close4')[0];
 
 btn4.onclick = function () {
-    modal4.style.display = 'block'
+    modal4.style.display = 'block';
 };
 
 span4.onclick = function ()
 {
-    modal4.style.display = 'none'
+    modal4.style.display = 'none';
 };
 
 window.onclick = function (event) {
     if (event.target === modal4) {
-    modal4.style.display = 'none'
+    modal4.style.display = 'none';
     };
 };
