@@ -7,14 +7,14 @@ btn.onclick = function () {
 };
 
 span.onclick = function () {
-  modal.style.display = 'none';
-}
+  modal.style.display = 'none'
+};
 
-window.onclick = function(event) {
-    if (event.target === modal) {
-        modal.style.display = 'none';
-    }
-}
+window.onclick = function (event) {
+  if (event.target === modal) {
+    modal.style.display = 'none'
+    };
+};
 
 // second card
 const modal2 = document.getElementById('myModal2');
@@ -23,42 +23,41 @@ const span2 = document.getElementsByClassName('close2')[0];
 
 btn2.onclick = function () {
   modal2.style.display = 'block';
-}
+};
 
 span2.onclick = function () {
   modal2.style.display = 'none';
-}
+};
 
-window.onclick = function(event) {
-        if (event.target === modal2) {
-            modal2.style.display = 'none';
-        }
-    }
+window.onclick = function (event) {
+  if (event.target === modal2) {
+      modal2.style.display = 'none'
+  };
+};
     //  third card
 const modal3 = document.getElementById('myModal3');
 const btn3 = document.getElementById('myBtn3');
 const span3 = document.getElementsByClassName('close3')[0];
 
 btn3.onclick = function () {
-  modal3.style.display = 'block';
+  modal3.style.display = 'block'
 };
-
 
 span3.onclick = function () {
   modal3.style.display = 'none'
 };
 
-window.onclick = function(event) {
+window.onclick = function (event) {
   if (event.target === modal3) {
     modal3.style.display = 'none'
   };
 };
     //  fourth card
 const modal4 = document.getElementById('myModal4');
-const  btn4 = document.getElementById('myBtn4');
+const btn4 = document.getElementById('myBtn4');
 const span4 = document.getElementsByClassName('close4')[0];
 
-btn4.onclick = function() {
+btn4.onclick = function () {
     modal4.style.display = 'block'
 };
 
@@ -67,8 +66,8 @@ span4.onclick = function ()
     modal4.style.display = 'none'
 };
 
-window.onclick = function(event) {
+window.onclick = function (event) {
     if (event.target === modal4) {
     modal4.style.display = 'none'
     };
-}
+};
