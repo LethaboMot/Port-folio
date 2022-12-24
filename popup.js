@@ -10,7 +10,7 @@ span.onclick = function () {
   modal.style.display = 'none';
 }
 
-window.onclick = function(event) {
+window.onclick = function (event) {
   if (event.target === modal) {
     modal.style.display = 'none';
     }
@@ -29,7 +29,7 @@ span2.onclick = function () {
     modal2.style.display = 'none';
 }
 
-window.onclick = function(event) {
+window.onclick = function (event) {
   if (event.target === modal2) {
     modal2.style.display = 'none';
   }
@@ -65,7 +65,7 @@ span.onclick = function () {
   modal4.style.display = 'none';
 };
 
-window.onclick = function(event) {
+window.onclick = function (event) {
   if (event.target === modal4) {
     modal4.style.display = 'none';
   }
