@@ -1,5 +1,5 @@
-const projectbtn = document.getElementById('myBtn1');
-const bluebutton = document.getElementById('.bluebutton');
+// const projectbtn = document.getElementById('myBtn1');
+// const bluebutton = document.getElementById('.bluebutton');
 const projects = [{
   card: 1,
   name: 'Tonic',
@@ -36,4 +36,5 @@ const projects = [{
   link: 'https://lethabomot.github.io/Port-folio/',
 
 },
+                  return card;
 ];
