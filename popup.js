@@ -3,7 +3,7 @@ const btn = document.getElementById('myBtn');
 const span = document.getElementsByClassName('close')[0];
 
 btn.onclick = function () {
-    modal.style.display = 'block';
+  modal.style.display = 'block';
 }
 
 span.onclick = function () {
@@ -13,7 +13,7 @@ span.onclick = function () {
 window.onclick = function (event) {
   if (event.target === modal) {
     modal.style.display = 'none';
-    }
+  }
 };
 
 // second card
@@ -23,11 +23,11 @@ const span2 = document.getElementsByClassName('close2')[0];
 
 btn2.onclick = function () {
   modal2.style.display = 'block';
-}
+};
 
 span2.onclick = function () {
     modal2.style.display = 'none';
-}
+};
 
 window.onclick = function (event) {
   if (event.target === modal2) {
@@ -39,29 +39,29 @@ const modal3 = document.getElementById('myModal3');
 const btn3 = document.getElementById('myBtn3');
 const span3 = document.getElementsByClassName('close3')[0];
 
-btn.onclick = function () {
+btn3.onclick = function () {
   modal3.style.display = 'block';
-}
+};
 
-span.onclick = function () {
+span3.onclick = function () {
   modal3.style.display = 'none';
-}
+};
 
 window.onclick = function(event) {
   if (event.target === modal3) {
     modal3.style.display = 'none';
   }
 };
-    //  fourth card
+//  fourth card
 const modal4 = document.getElementById('myModal4');
 const btn4 = document.getElementById('myBtn4');
 const span4 = document.getElementsByClassName('close4')[0];
 
-btn.onclick = function () {
+btn4.onclick = function () {
   modal4.style.display = 'block';
 };
 
-span.onclick = function () {
+span4.onclick = function () {
   modal4.style.display = 'none';
 };
 
