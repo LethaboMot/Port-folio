@@ -1,6 +1,6 @@
 // const projectbtn = document.getElementById('myBtn1');
 // const bluebutton = document.getElementById('.bluebutton');
-const projects = [{
+const projects(id) = [{
   card: 1,
   name: 'Tonic',
   description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since th',
@@ -8,6 +8,7 @@ const projects = [{
   technologies: ['html', 'JavaScript', 'css'],
   source: 'https://github.com/LethaboMot',
   link: 'https://lethabomot.github.io/Port-folio/',
+  return id;
 },
 {
   card: 2,
