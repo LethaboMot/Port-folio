@@ -11,7 +11,7 @@ span.onclick = function () {
 }
 
 window.onclick = function(event) {
-    if (event.target == modal) {
+    if (event.target === modal) {
         modal.style.display = 'none';
     }
 }
@@ -30,7 +30,7 @@ span2.onclick = function () {
 }
 
 window.onclick = function(event) {
-  if (event.target == modal2) {
+  if (event.target === modal2) {
     modal2.style.display = 'none';
 }
 }
@@ -48,7 +48,7 @@ span.onclick = function () {
 }
 
 window.onclick = function(event) {
-  if (event.target == modal3) {
+  if (event.target === modal3) {
     modal3.style.display = 'none';
 }
 }
@@ -66,7 +66,7 @@ span.onclick = function () {
 }
 
 window.onclick = function(event) {
-  if (event.target == modal4) {
+  if (event.target === modal4) {
     modal4.style.display = 'none';
 }
 }
