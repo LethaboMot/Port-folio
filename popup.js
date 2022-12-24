@@ -82,7 +82,6 @@ const projects = [{
 //     modal3.style.display = 'block';
 // }
 
-
 // span.onclick = function() {
 //     modal3.style.display = 'none';
 // }
@@ -110,7 +109,6 @@ const projects = [{
 //         modal4.style.display = 'none';
 //     };
 // };
-
 
 // window.onclick = function(event) {
 //     if (event.target == modal4) {
