@@ -34,7 +34,6 @@ const projects = [{
   technologies: ['html', 'JavaScript', 'css'],
   source: 'https://github.com/LethaboMot',
   link: 'https://lethabomot.github.io/Port-folio/',
-
+  return [5];
 },
-  return card;
 ];
