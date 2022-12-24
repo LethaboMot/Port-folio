@@ -4,11 +4,11 @@ const span = document.getElementsByClassName('close')[0];
 
 btn.onclick = function () {
   modal.style.display = 'block';
-}
+};
 
 span.onclick = function () {
   modal.style.display = 'none';
-}
+};
 
 window.onclick = function (event) {
   if (event.target === modal) {
@@ -26,7 +26,7 @@ btn2.onclick = function () {
 };
 
 span2.onclick = function () {
-    modal2.style.display = 'none';
+  modal2.style.display = 'none';
 };
 
 window.onclick = function (event) {
@@ -34,7 +34,7 @@ window.onclick = function (event) {
     modal2.style.display = 'none';
   }
 };
-    //  third card
+//  third card
 const modal3 = document.getElementById('myModal3');
 const btn3 = document.getElementById('myBtn3');
 const span3 = document.getElementsByClassName('close3')[0];
@@ -47,7 +47,7 @@ span3.onclick = function () {
   modal3.style.display = 'none';
 };
 
-window.onclick = function(event) {
+window.onclick = function (event) {
   if (event.target === modal3) {
     modal3.style.display = 'none';
   }
