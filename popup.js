@@ -1,74 +1,113 @@
-const modal1 = document.getElementById('myModal1');
-const btn = document.getElementById('myBtn1');
-const span = document.getElementsByClassName('close1')[0];
+const projectbtn = document.getElementById('myBtn1');
+const bluebutton = document.getElementById( '.bluebutton' );
+const projects = [{
+        card: 1,
+        name: 'Tonic',
+        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since th',
+        image: 'img/Nature',
+        technologies: ['html', 'JavaScript', 'css'],
+        source: 'https://github.com/LethaboMot',
+        link: 'https://lethabomot.github.io/Port-folio/',
+    },
+    {
+        card: 2,
+        name: 'Multi-Post Stories ',
+        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since th',
+        image: 'img/Nature',
+        technologies: ['html', 'JavaScript', 'css'],
+        link: 'https://lethabomot.github.io/Port-folio/',
+    },
+    {
+        card: 3,
+        name: 'Facebook',
+        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the',
+        image: 'img/Nature',
+        technologies: ['html', 'JavaScript', 'css'],
+        source: 'https://github.com/LethaboMot',
+        link: 'https://lethabomot.github.io/Port-folio/',
+    },
+    {
+        card: 4,
+        name: 'Uber Navigation Stories',
+        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since th',
+        image: 'img/Nature',
+        technologies: ['html', 'JavaScript', 'css'],
+        source: 'https://github.com/LethaboMot',
+        link: 'https://lethabomot.github.io/Port-folio/',
+    }
+];
 
-btn.onclick = function () {
-  modal1.style.display = 'block';
-};
+// var modal = document.getElementById("myModal");
+// var btn = document.getElementById("myBtn");
+// var span = document.getElementsByClassName("close")[0];
 
-span.onclick = function () {
-  modal1.style.display = 'none';
-};
+// btn.onclick = function() {
+//     modal.style.display = "block";
+// }
 
-window.onclick = function (event) {
-  if (event.target === modal1) {
-    modal1.style.display = 'none';
-  }
-};
+// span.onclick = function() {
+//     modal.style.display = "none";
+// }
 
-// second card
-const modal2 = document.getElementById('myModal2');
-const btn2 = document.getElementById('myBtn2');
-const span2 = document.getElementsByClassName('close2')[0];
+// window.onclick = function(event) {
+//     if (event.target == modal) {
+//         modal.style.display = "none";
+//     }
+// }
 
-btn2.onclick = function () {
-  modal2.style.display = 'block';
-};
+// // second card
+// var modal2 = document.getElementById("myModal2");
+// var btn = document.getElementById("myBtn2");
+// var span = document.getElementsByClassName("close2")[0];
 
-span2.onclick = function () {
-  modal2.style.display = 'none';
-};
+// btn.onclick = function() {
+//     modal2.style.display = "block";
+// }
 
-window.onclick = function (event) {
-  if (event.target === modal2) {
-    modal2.style.display = 'none';
-  }
-};
+// span.onclick = function() {
+//     modal2.style.display = "none";
+// }
 
-//  third card
-const modal3 = document.getElementById('myModal3');
-const btn3 = document.getElementById('myBtn3');
-const span3 = document.getElementsByClassName('close3')[0];
+// window.onclick = function(event) {
+//         if (event.target == modal2) {
+//             modal2.style.display = "none";
+//         }
+//     }
+//     //  third card
+// var modal3 = document.getElementById("myModal3");
+// var btn = document.getElementById("myBtn3");
+// var span = document.getElementsByClassName("close3")[0];
 
-btn3.onclick = function () {
-  modal3.style.display = 'block';
-};
+// btn.onclick = function() {
+//     modal3.style.display = "block";
+// }
 
-span3.onclick = function () {
-  modal3.style.display = 'none';
-};
 
-window.onclick = function (event) {
-  if (event.target === modal3) {
-    modal3.style.display = 'none';
-  }
-};
+// span.onclick = function() {
+//     modal3.style.display = "none";
+// }
 
-//  fourth card
-const modal4 = document.getElementById('myModal4');
-const btn4 = document.getElementById('myBtn4');
-const span4 = document.getElementsByClassName('close4')[0];
+// window.onclick = function(event) {
+//         if (event.target == modal3) {
+//             modal3.style.display = "none";
+//         }
+//     }
+//     //  fourth card
+// var modal4 = document.getElementById("myModal4");
+// var btn = document.getElementById("myBtn4");
+// var span = document.getElementsByClassName("close4")[0];
 
-btn4.onclick = function () {
-  modal4.style.display = 'block';
-};
+// btn.onclick = function() {
+//     modal4.style.display = "block";
+// }
 
-span4.onclick = function () {
-  modal4.style.display = 'none';
-};
+// span.onclick = function() {
+//     modal4.style.display = "none";
+// }
 
-window.onclick = function (event) {
-  if (event.target === modal4) {
-    modal4.style.display = 'none';
-  }
-};
+// window.onclick = function(event) {
+//     if (event.target == modal4) {
+//         modal4.style.display = "none";
+//     }
+// }
+
