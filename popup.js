@@ -8,7 +8,7 @@ const projects = [{
   technologies: ['html', 'JavaScript', 'css'],
   source: 'https://github.com/LethaboMot',
   link: 'https://lethabomot.github.io/Port-folio/',
-  projects = 'work';
+  projects = 'card: 1';
 },
 {
   card: 2,
