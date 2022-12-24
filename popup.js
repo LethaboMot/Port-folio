@@ -35,4 +35,5 @@ const projects = [{
   source: 'https://github.com/LethaboMot',
   link: 'https://lethabomot.github.io/Port-folio/',
 },
+  projects = 'work';
 ];
