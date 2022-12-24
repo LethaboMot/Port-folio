@@ -8,6 +8,7 @@ const projects = [{
   technologies: ['html', 'JavaScript', 'css'],
   source: 'https://github.com/LethaboMot',
   link: 'https://lethabomot.github.io/Port-folio/',
+  projects = 'work';
 },
 {
   card: 2,
@@ -34,6 +35,5 @@ const projects = [{
   technologies: ['html', 'JavaScript', 'css'],
   source: 'https://github.com/LethaboMot',
   link: 'https://lethabomot.github.io/Port-folio/',
-  projects = 'work';
 },
 ];
