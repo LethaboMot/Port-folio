@@ -36,5 +36,5 @@ const projects = [{
   link: 'https://lethabomot.github.io/Port-folio/',
 
 },
-                  return card;
+  return card;
 ];
