@@ -1,6 +1,6 @@
 // const projectbtn = document.getElementById('myBtn1');
 // const bluebutton = document.getElementById('.bluebutton');
-const projects = [{
+ projects = [{
   card: 1,
   name: 'Tonic',
   description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since th',
