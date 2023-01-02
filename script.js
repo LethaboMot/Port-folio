@@ -5,7 +5,6 @@ function openNav(open) {
 openNav('hello');
 
 function closeNav(close) {
-  document.getElementById('slidemenu').style.width = '0';
   return close;
 }
 closeNav('goodbye');
