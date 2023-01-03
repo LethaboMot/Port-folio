@@ -743,7 +743,8 @@ input[type="message"] {
   input[type="message"] {
     border-radius: 2px;
   }
-      /* desktop popup */
+  
+  /* desktop popup */
   
   .images-center img {
     display: grid;
