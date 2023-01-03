@@ -114,7 +114,7 @@ window.onclick = function (event) {
 };
 
 projects.forEach(project => {
-  for (let i = 0; i < peojects.length; i++) {
-  text += projects[i] + "<br>";
+  for (let i = 0; i < projects.length; i++) {
+   projects[i] = '<br>';
 }
 });
