@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <script src="script.js"></script>
-
     <title>portfolio</title>
 </head>
 
@@ -16,8 +14,8 @@
     <header id="toppart">
         <div id="slidemenu" class="overlay">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="./images/xicon.svg" alt="x icon" /></a>
-            <p><a class="slidefont" href="#">Portfolio</a></p>
-            <p><a class="slidefont" href="#">About</a></p>
+            <p><a class="slidefont" href="#wrap" onclick="closeNav()">Portfolio</a></p>
+            <p><a class="slidefont" href="#about_me" onclick="closeNav()">About</a></p>
             <p><a class="slidefont" href="#">Contact</a></p>
         </div>
         <nav class="toolbar">
@@ -40,7 +38,7 @@
     </header>
 
     <section id="Introduction">
-        <h1>
+        <h1 class="">
             I'm Lethabo<br /> Glad to see you!
         </h1>
         <div class="mid">
@@ -93,7 +91,7 @@
                     <li>Css</li>
                     <li>Javascript</li>
                 </ul>
-                <button type="button" class="bluebutton">See More</button>
+                <button type="button" class="bluebutton" id="myBtn">See More</button>
             </div>
         </div>
         <div class="whitebox">
@@ -119,7 +117,7 @@
                     <li>Css</li>
                     <li>Javascript</li>
                 </ul>
-                <button type="button" class="bluebutton">See More</button>
+                <button type="button" class="bluebutton" id="myBtn1">See More</button>
             </div>
         </div>
         <div class="whitebox">
@@ -147,10 +145,9 @@
                     <li>Css</li>
                     <li>Javascript</li>
                 </ul>
-                <button type="button" class="bluebutton">See More</button>
+                <button type="button" class="bluebutton" id="myBtn2">See More</button>
             </div>
         </div>
-
         <div class="whitebox">
             <div class="imageclass">
                 <img src="images/uber nav.svg" width="500" height="400" />
@@ -176,10 +173,11 @@
                     <li>Css</li>
                     <li>Javascript</li>
                 </ul>
-                <button type="button" class="bluebutton">See More</button>
+                <button type="button" class="bluebutton" id="myBtn3">See More</button>
             </div>
         </div>
     </section>
+    <section class="project-part"></section>
     <section id="about_me">
         <div class="leftpart">
             <h2>
@@ -212,7 +210,6 @@
                 <button type="button" class="bluebutton">Get my resume</button>
             </div>
         </div>
-
         <div class="sidebyside">
             <ul class="listed">
                 <h3 class="codeused">
@@ -221,12 +218,10 @@
                 </h3>
                 <div class="code">
                     <li class="grey_area">
-                        <img src="images/javascriptLogo.png " alt="Javascript " /><span>Javascript</span
-              >
-            </li>
-
-            <li class="grey_area">
-              <img src="images/html logo.png " alt="HTML " /><span>HTML</span>
+                        <img src="images/javascriptLogo.png " alt="Javascript " /><span>Javascript</span>
+                    </li>
+                    <li class="grey_area">
+                        <img src="images/html logo.png " alt="HTML " /><span>HTML</span>
                     </li>
                     <li class="grey_area">
                         <img src="images/css logo.png " alt="CSS " />
@@ -251,13 +246,11 @@
             </div>
         </div>
     </section>
-
     <footer class="contact-menu">
         <h2 class="background">Contact me</h2>
         <p>
             If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it
         </p>
-
         <form class="contact-form" action="https://formspree.io/f/}" method="post">
             <input type="text" id="name" name="text" placeholder="Yeremias" size="30" required />
             <input type="email" id="email" placeholder="natajayanj14@gmail.com" size="30" required />
@@ -267,6 +260,130 @@
             </div>
         </form>
     </footer>
+    <div id="myPopup" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <h2>Tonic</h2>
+            <div>
+                <ul class="list_align">
+                    <li class="bold">CANOPY</li>
+                    <img src="images/Counter.svg" />
+                    <li>Back End Dev</li>
+                    <img src="images/Counter.svg" />
+                    <li>2015</li>
+                </ul>
+            </div>
+            <div class="images-center">
+                <img src="images/nature.svg" height="400" />
+            </div>
+            <div class="perpendicular">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+                    book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent</p>
+                <div>
+                    <ul class="tags">
+                        <li>Html</li>
+                        <li>Css</li>
+                        <li>Javascript</li>
+                    </ul>
+                    <button type="button" class="bluebutton">see live <img src="./images/golive.svg"/></button>
+                    <button type="button" class="bluebutton">see source <img src="./images/Vector.svg"/></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="myPopup1" class="popup1">
+        <div class="popup-content1">
+            <span class="close1">&times;</span>
+            <h2>Multi-Post</h2>
+            <div>
+                <ul class="list_align">
+                    <li class="bold">CANOPY</li>
+                    <img src="images/Counter.svg" />
+                    <li>Back End Dev</li>
+                    <img src="images/Counter.svg" />
+                    <li>2015</li>
+                </ul>
+            </div>
+            <div class="images-center">
+                <img src="images/colorfulbasketball.svg" width="500" height="400" />
+            </div>
+            <div class="perpendicular">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+                    book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent</p>
+                <div>
+                    <ul class="tags">
+                        <li>Html</li>
+                        <li>Css</li>
+                        <li>Javascript</li>
+                    </ul>
+                    <button type="button" class="bluebutton">see live <img src="./images/golive.svg"/></button>
+                    <button type="button" class="bluebutton">see source <img src="./images/Vector.svg"/></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="myPopup2" class="popup2">
+        <div class="popup-content2">
+            <span class="close2">&times;</span>
+            <h2>Facebook</h2>
+            <div>
+                <ul class="list_align">
+                    <li class="bold">CANOPY</li>
+                    <img src="images/Counter.svg" />
+                    <li>Back End Dev</li>
+                    <img src="images/Counter.svg" />
+                    <li>2015</li>
+                </ul>
+            </div>
+            <div class="images-center">
+                <img src="images/orange ting.svg" width="500" height="400" />
+            </div>
+            <div class="perpendicular">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+                    book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent</p>
+                <div>
+                    <ul class="tags">
+                        <li>Html</li>
+                        <li>Css</li>
+                        <li>Javascript</li>
+                    </ul>
+                    <button type="button" class="bluebutton">see live <img src="./images/golive.svg"/></button>
+                    <button type="button" class="bluebutton">see source <img src="./images/Vector.svg"/></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="myPopup3" class="popup3">
+        <div class="popup-content3">
+            <span class="close3">&times;</span>
+            <h2>Uber Navigation</h2>
+            <div>
+                <ul class="list_align">
+                    <li class="bold">CANOPY</li>
+                    <img src="images/Counter.svg" />
+                    <li>Back End Dev</li>
+                    <img src="images/Counter.svg" />
+                    <li>2015</li>
+                </ul>
+            </div>
+            <div class="images-center">
+                <img src="images/uber nav.svg" width="500" height="400" />
+            </div>
+            <div class="perpendicular">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+                    book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent</p>
+                <div>
+                    <ul class="tags">
+                        <li>Html</li>
+                        <li>Css</li>
+                        <li>Javascript</li>
+                    </ul>
+                    <button type="button" class="bluebutton">see live <img src="./images/golive.svg"/></button>
+                    <button type="button" class="bluebutton">see source <img src="./images/Vector.svg"/></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="popup.js"></script>
 </body>
-
 </html>
