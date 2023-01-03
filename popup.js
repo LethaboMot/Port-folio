@@ -112,9 +112,9 @@ window.onclick = function (event) {
     popup3.style.display = 'none';
   }
 };
-let project = '';
-projects.forEach(card => {
-  for (let i = 0; i < projects.length; i++) {
-   card += projects[i] = '<br>';
+
+window.onclick = function (event) {
+  if (event.target === projects) {
+    projects.style.display = 'none';
   }
-});
+};
