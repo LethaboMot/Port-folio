@@ -54,7 +54,7 @@ const projects = [{
 
 btn.onclick = function () {
   popup.style.display = 'block';
- };
+};
 
 span.onclick = function () {
   popup.style.display = 'none';
@@ -73,16 +73,16 @@ btn1.onclick = function () {
 };
 
 span1.onclick = function () {
-    popup1.style.display = 'none';
+  popup1.style.display = 'none';
 };
 
 window.onclick = function (event) {
-   if (event.target === popup1) {
-     popup1.style.display = 'none';
+  if (event.target === popup1) {
+    popup1.style.display = 'none';
   }
 };
 
- // third card
+// third card
 
 btn2.onclick = function () {
   popup2.style.display = 'block';
@@ -95,9 +95,9 @@ span2.onclick = function () {
 window.onclick = function (event) {
   if (event.target === popup2) {
     popup2.style.display = 'none';
-}
+  }
 };
- //  fourth card
+//  fourth card
 
 btn3.onclick = function () {
   popup3.style.display = 'block';
@@ -111,4 +111,4 @@ window.onclick = function (event) {
   if (event.target === popup3) {
     popup3.style.display = 'none';
   }
- };
+};
