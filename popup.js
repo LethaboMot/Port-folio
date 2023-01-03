@@ -113,8 +113,8 @@ window.onclick = function (event) {
   }
 };
 
-projects.forEach(project => {
-  for (let i = 0; i < projects.length; i++) {
-   projects[i] = '<br>';
+projects.forEach(card => {
+  for (let i = 0; i < projects.length; i+) {
+    projects[i] = '<br>';
   }
 });
