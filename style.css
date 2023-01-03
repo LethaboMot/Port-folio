@@ -744,15 +744,17 @@ input[type="message"] {
     border-radius: 2px;
   }
       /* desktop popup */
+  
   .images-center img {
-      display: grid;
-      margin-left: auto;
-      margin-right: auto;
-      width: 100%;
-    }
-    .perpendicular {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      padding-bottom: 100px;
-    }
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  
+  .perpendicular {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 100px;
+  }
 }
