@@ -112,3 +112,7 @@ window.onclick = function (event) {
     popup3.style.display = 'none';
   }
 };
+
+projects.forEach(project => {
+  return card;
+});
