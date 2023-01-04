@@ -758,9 +758,9 @@ input[type="message"] {
     grid-template-columns: 1fr 1fr;
     padding-bottom: 100px;
   }
-  
+
   .space {
-    margin-left:150;
+    margin-left: 150px;
   }
   
   .text {
