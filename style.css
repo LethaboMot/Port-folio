@@ -776,11 +776,11 @@ input[type="message"] {
   .space {
     margin-left: 150px;
   }
-  
+
   .text2 {
     width: 778px;
     height: 382px;
-    font-family: 'Poppins', sans-serif;
+    font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
