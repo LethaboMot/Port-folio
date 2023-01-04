@@ -588,7 +588,7 @@ input[type="message"] {
   height: auto;
 }
 
-.text {
+.text2 {
   width: 311px;
   height: 220px;
   font-family: 'Poppins';
@@ -777,7 +777,7 @@ input[type="message"] {
     margin-left: 150px;
   }
   
-  .text {
+  .text2 {
     width: 778px;
     height: 382px;
     font-family: 'Poppins', sans-serif;
