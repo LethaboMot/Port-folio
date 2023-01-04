@@ -758,4 +758,22 @@ input[type="message"] {
     grid-template-columns: 1fr 1fr;
     padding-bottom: 100px;
   }
+  
+  .space {
+    margin-left:150;
+  }
+  
+  .text {
+    width: 778px;
+    height: 382px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #344563;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
 }
