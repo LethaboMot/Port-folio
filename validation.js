@@ -1,4 +1,4 @@
-const form = document.querySelector('form');
+const form = document.querySelector('form'),<br>;
 
 const email = document.getElementById('email');
 
