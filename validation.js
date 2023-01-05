@@ -16,7 +16,7 @@ email.addEventListener('input', () => {
   wrong.textContent = '';
   wrong.className = 'error';
     } else {
-        email.className = 'not ok';
+  email.className = 'not ok';
     }
 });
 
@@ -25,12 +25,12 @@ form.addEventListener('submit', (event) => {
 
     const isValid = email.value.length === 0 || emailRegExp.test(email.value);
     if (!isValid) {
-        email.className = 'not ok';
-        wrong.textContent = 'Please enter in lowercases';
-        wrong.className = 'error active';
+  email.className = 'not ok';
+  wrong.textContent = 'Please enter in lowercases';
+  wrong.className = 'error active';
     } else {
-        email.className = 'OK';
-        wrong.textContent = '';
-        wrong.className = 'error';
+  email.className = 'OK';
+  wrong.textContent = '';
+  wrong.className = 'error';
     }
 });
