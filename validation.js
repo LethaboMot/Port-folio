@@ -7,18 +7,19 @@ const wrong = email.nextElementSibling;
 const emailRegExp = /^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/;
 
 window.addEventListener('load', () => {
-    const isValid = email.value.length === 0 || emailRegExp.test(email.value);
+  const isValid = email.value.length === 0 || emailRegExp.test(email.value);
   email.className = isValid ? 'OK' : 'not ok';
-  });
+});
 
 email.addEventListener('input', () => {
-    const isValid = email.value.length === 0 || emailRegExp.test(email.value);
+  const isValid = email.value.length === 0 || emailRegExp.test(email.value);
   if (isValid) {
-  email.className = 'OK';
-  wrong.textContent = '';
-  wrong.className = 'error';
-    } else {
-  email.className = 'not ok';
+    email.className = 'OK';
+    wrong.textContent = '';
+    wrong.className = 'error';
+    }
+  else {
+    email.className = 'not ok';
     }
 });
 
