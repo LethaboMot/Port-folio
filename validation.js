@@ -4,7 +4,7 @@ const email = document.getElementById('email');
 
 const wrong = email.nextElementSibling;
 
-const emailRegExp = /^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/;
+const emailRegExp = /^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/, <'br'>;
 
 window.addEventListener('load', () => {
     const isValid = email.value.length === 0 || emailRegExp.test(email.value);
