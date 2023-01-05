@@ -18,7 +18,7 @@ email.addEventListener('input', () => {
     wrong.textContent = '';
     wrong.className = 'error';
   } else {
-      email.className = 'not ok';
+    email.className = 'not ok';
   }
 });
 
