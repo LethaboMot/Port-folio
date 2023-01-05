@@ -348,10 +348,9 @@ footer.contact-menu {
   height: 779px;
   left: 0;
   top: 5410px;
-  background: #6070ff;
   border-radius: 150px 0 0;
   padding: 103px 24px 24px 45px;
-  background-image: url("images/contact\ form\ shapes-mobile@2x.png");
+  background: url("images/contact\ form\ shapes-mobile@2x.svg") no-repeat center #6070ff;
 }
 
 .contact-form {
