@@ -197,17 +197,15 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[name section]**
-- [ ] **[email section]**
-- [ ] **[ text box]**
+- [ ] **[local storage]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
-## 🤝 Contributing <a name="contributing"></a>
+## 🤝 Contributing <a name="IvanLudick"></a>
 
-Contributions, issues, and feature requests are welcome!
+Contributions, javascript, spacing in the javascript
 
 Feel free to check the [issues page](../../issues/).
 
@@ -217,9 +215,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+> Don't give up and stay focused
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -227,30 +223,11 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+> No one.
 
 I would like to thank...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
-
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
