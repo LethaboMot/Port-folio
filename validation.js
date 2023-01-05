@@ -17,21 +17,22 @@ email.addEventListener('input', () => {
     email.className = 'OK';
     wrong.textContent = '';
     wrong.className = 'error';
-    }
+  }
   else {
     email.className = 'not ok';
     }
 });
 
 form.addEventListener('submit', (event) => {
-    event.preventDefault();
+  event.preventDefault();
 
-    const isValid = email.value.length === 0 || emailRegExp.test(email.value);
-    if (!isValid) {
-  email.className = 'not ok';
-  wrong.textContent = 'Please enter in lowercases';
-  wrong.className = 'error active';
-    } else {
+  const isValid = email.value.length === 0 || emailRegExp.test(email.value);
+  if (!isValid) {
+    email.className = 'not ok';
+    wrong.textContent = 'Please enter in lowercases';
+    wrong.className = 'error active';
+    } 
+  else {
   email.className = 'OK';
   wrong.textContent = '';
   wrong.className = 'error';
