@@ -20,7 +20,7 @@ email.addEventListener('input', () => {
   }
   else {
     email.className = 'not ok';
-    }
+  }
 });
 
 form.addEventListener('submit', (event) => {
@@ -31,10 +31,10 @@ form.addEventListener('submit', (event) => {
     email.className = 'not ok';
     wrong.textContent = 'Please enter in lowercases';
     wrong.className = 'error active';
-    } 
+  } 
   else {
-  email.className = 'OK';
-  wrong.textContent = '';
-  wrong.className = 'error';
+    email.className = 'OK';
+    wrong.textContent = '';
+    wrong.className = 'error';
     }
 });
