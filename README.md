@@ -24,7 +24,7 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  
   <br/>
 
   <h3><b>Microverse README Template</b></h3>
@@ -57,13 +57,13 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Mobile portfolio] <a name="about-project"></a>
+# 📖 [validate contact form] <a name="about-project"></a>
 
-> Added the mobile menu using Javascript and CSS and HTML.
+> Added the mobile menu using Javascript, CSS and HTML.
 > Background of the menu is the color requiested in the figma 
-> this projecthas three options.
+> this project has three options.
 
-**[Mobile Menu]** is a...
+**[Contact validation]** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -101,7 +101,7 @@ After you're finished please remove all the comments and instructions!
 
 > more information in the mobile portfolio.
 
-- **[Mobile Menu]**
+- **[Contact]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -145,7 +145,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone githttps://github.com/LethaboMot/Port-folio.git
+  git clone githttps:/https://github.com/LethaboMot/Port-folio.git
 ```
 --->
 
@@ -185,12 +185,9 @@ Example:
 - LinkedIn: [Lethabo Motloung](https://www.linkedin.com/in/lethabo-motloung-a8157624b/)
 
 
-👤 **Ezekiel Udiomuno**
+👤 **IvanLudick**
 
-- GitHub: [@eric2umeh](https://github.com/Ezzywealth)
-- Twitter: [@twitterhandle](https://twitter.com/EzzyWealth)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ezekiel-udiomuno-b14539150/)
-
+- GitHub: [@IvanLudick](https://github.com/IvanLudick)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -200,17 +197,15 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[name section]**
-- [ ] **[email section]**
-- [ ] **[ text box]**
+- [ ] **[local storage]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
-## 🤝 Contributing <a name="contributing"></a>
+## 🤝 Contributing <a name="IvanLudick"></a>
 
-Contributions, issues, and feature requests are welcome!
+Contributions, javascript, spacing in the javascript
 
 Feel free to check the [issues page](../../issues/).
 
@@ -220,9 +215,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+> Don't give up and stay focused
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -230,30 +223,11 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+> No one.
 
 I would like to thank...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
-
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
